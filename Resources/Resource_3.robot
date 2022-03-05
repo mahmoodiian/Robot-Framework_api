@@ -3,11 +3,9 @@ Library  RequestsLibrary
 Library  JSONLibrary
 Resource  CommonFunctionality.robot
 
-
 *** Variables ***
 ${base_url}  https://reqres.in
 ${url}  /api/register
-
 
 *** Keywords ***
 Request

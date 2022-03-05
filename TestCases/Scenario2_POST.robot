@@ -3,11 +3,9 @@ Documentation  Add User Without Email To reqres.in
 Resource  ../Resources/Resource_2.robot
 Force Tags  POST
 
-
 *** Variables ***
 ${name}  morpheus
 ${job}  leader
-
 
 *** Test Cases ***
 Add User

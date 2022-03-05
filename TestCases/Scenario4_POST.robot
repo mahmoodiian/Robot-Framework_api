@@ -3,12 +3,10 @@ Documentation  Add User To reqres.in
 Resource  ../Resources/Resource_4.robot
 Force Tags  POST
 
-
 *** Variables ***
 ${name}  david
 ${job}  leader
 ${email}  ${name}@gmail.com
-
 
 *** Test Cases ***
 Add User

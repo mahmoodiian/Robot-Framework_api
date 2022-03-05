@@ -3,7 +3,6 @@ Documentation  Get Data from gorest.co.in
 Resource  ../Resources/Resource_1.robot
 Force Tags  GET
 
-
 *** Test Cases ***
 Get Data
     ${response}  Request

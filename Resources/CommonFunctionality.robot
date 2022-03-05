@@ -2,7 +2,6 @@
 Documentation  Common Functions Used In This Project
 Library  RequestsLibrary
 
-
 *** Keywords ***
 POST Request
     [Arguments]  ${base_url}  ${url}  ${body}

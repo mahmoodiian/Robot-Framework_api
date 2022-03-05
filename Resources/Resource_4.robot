@@ -4,7 +4,6 @@ Library  JSONLibrary
 Library  ../Libraries/Functions.py
 Resource  CommonFunctionality.robot
 
-
 *** Variables ***
 ${base_url}  https://reqres.in
 ${url}  /api/users
@@ -12,7 +11,6 @@ ${name_path}  $.name
 ${job_path}  $.job
 ${id_path}  $.id
 ${time_path}  $.createdAt
-
 
 *** Keywords ***
 Request

@@ -3,13 +3,11 @@ Library  RequestsLibrary
 Library  JSONLibrary
 Resource  CommonFunctionality.robot
 
-
 *** Variables ***
 ${base_url}  https://gorest.co.in
 ${url}  /public/v1/posts/123/comments
 ${data_path}  $.data
 ${page_path}  $.meta.pagination.page
-
 
 *** Keywords ***
 Request

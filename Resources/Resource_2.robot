@@ -3,13 +3,11 @@ Library  RequestsLibrary
 Library  JSONLibrary
 Resource  CommonFunctionality.robot
 
-
 *** Variables ***
 ${base_url}  https://reqres.in
 ${url}  /api/users
 ${name_path}  $.name
 ${job_path}  $.job
-
 
 *** Keywords ***
 Request
