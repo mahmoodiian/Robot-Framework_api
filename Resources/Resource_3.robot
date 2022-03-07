@@ -10,6 +10,6 @@ ${url}  /api/register
 *** Keywords ***
 Request
     [Arguments]  ${email}
-    ${body}  Create Dictionary  email=${email}
-    ${response}  POST Request  ${base_url}  ${url}  ${body}
+    ${json}  Create Dictionary  email=${email}
+    ${response}  POST Request  ${base_url}  ${url}  ${json}
     [Return]  ${response}

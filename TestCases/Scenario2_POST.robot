@@ -9,7 +9,7 @@ ${job}  leader
 
 *** Test Cases ***
 Add User
-    ${response}  Request  ${name}  ${job}
+    ${response}  Request
     ${key_name}  ${key_job}  Get Data  ${response}
 
     Status Should Be  201  ${response}

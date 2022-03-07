@@ -1,3 +1,4 @@
 /.idea/
 /Venv/
 /Libraries/__pycache__/
+/Results/*

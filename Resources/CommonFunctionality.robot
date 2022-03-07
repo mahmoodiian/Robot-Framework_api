@@ -4,10 +4,10 @@ Library  RequestsLibrary
 
 *** Keywords ***
 POST Request
-    [Arguments]  ${base_url}  ${url}  ${body}
+    [Arguments]  ${base_url}  ${url}  ${json}
     Create Session  mysession  ${base_url}
     ${header_req}  Create Dictionary  Accept=application/json  Content-Type=application/json
-    ${response}  POST On Session  mysession  ${url}  json=${body}  headers=${header_req}  expected_status=anything
+    ${response}  POST On Session  mysession  ${url}  json=${json}  headers=${header_req}  expected_status=anything
     [Return]  ${response}
 
 GET Request

@@ -10,7 +10,7 @@ ${email}  ${name}@gmail.com
 
 *** Test Cases ***
 Add User
-    ${response}  Request  ${name}  ${job}  ${email}
+    ${response}  Request  ${name}  ${email}
     ${key_name}  ${key_email}  ${key_id}  ${key_id}  ${createdAt}  Get Data  ${response}
 
     Status Should Be  201  ${response}
